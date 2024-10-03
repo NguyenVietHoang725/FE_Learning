@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+
+<!--
+<!DOCTYPE> 
+  - Tất cả tài liệu HTML phải bắt đầu bằng khai báo <!DOCTYPE html>.
+-->
+
+<!--
+<html>
+  - Thẻ này đại diện cho tài liệu HTML.
+  - Thẻ này là thẻ chứa tất cả các phần tử HTML khác (ngoại trừ thẻ <!DOCTYPE>).
+  - Luôn thêm thuộc tính 'lang' bên trong thẻ <html> để khai báo ngôn ngữ của trang Web.
+  điều này hỗ trợ các công cụ tìm kiếm và trình duyệt.
+-->
+
+<!--
+<head> 
+  - Thẻ này là thẻ chứa siêu dữ liệu (dữ liệu về dữ liệu) và được đặt giữa thẻ <html> và thẻ <body>.
+  - Siêu dữ liệu là dữ liệu về tài liệu HTML. Siêu dữ liệu không được hiển thị.
+  - Siêu dữ liệu thường định nghĩa tiêu đề của tài liệu, bộ ký tự, kiểu dáng, tập lệnh và các thông tin
+  meta khác.
+  - Các phần tử sau đây có thể nằm bên trong phần tử <head> 
+    + <title> (bắt buộc trong mọi tài liệu HTML)
+    + <style>
+    + <base>
+    + <link>
+    + <meta>
+    + <script>
+    + <noscript>
+  - Thẻ này hỗ trợ các Thuộc tính toàn cục (Global Attributes)
+-->
+
+<!--
+<title>
+  - Thẻ <title> định nghĩa tiêu đề của tài liệu. Tiêu đề chỉ được phép chứa văn bản, và nó sẽ hiển thị
+  trong thanh tiêu đề của trình duyệt hoặc trong tab của trang.
+  - Thẻ <title> là bắt buộc trong các tài liệu HTML!
+  Nội dung của tiêu đề trang rất quan trọng cho tối ưu hóa công cụ tìm kiếm (SEO)! Tiêu đề trang được 
+  các thuật toán tìm kiếm sử dụng để quyết định thứ tự khi liệt kê các trang trong kết quả tìm kiếm.
+  - Phần tử <title>:
+    + Định nghĩa một tiêu đề trong thanh công cụ của trình duyệt.
+    + Cung cấp tiêu đề cho trang khi nó được thêm vào mục yêu thích.
+    + Hiển thị tiêu đề cho trang trong kết quả của công cụ tìm kiếm.
+  - Dưới đây là một số mẹo để tạo tiêu đề tốt:
+    + Chọn một tiêu đề dài và mô tả (tránh tiêu đề một hoặc hai từ).
+    + Các công cụ tìm kiếm sẽ hiển thị khoảng 50-60 ký tự của tiêu đề, vì vậy hãy cố gắng không để tiêu đề dài hơn mức đó.
+    + Đừng chỉ sử dụng danh sách từ làm tiêu đề (điều này có thể giảm vị trí của trang trong kết quả tìm kiếm).
+  Hãy cố gắng làm cho tiêu đề chính xác và có ý nghĩa nhất có thể!
+  - Lưu ý: Bạn KHÔNG THỂ có nhiều hơn một phần tử <title> trong một tài liệu HTML.
+  - Thẻ này hỗ trợ các Thuộc tính toàn cục (Global Attributes)
+-->
+
+<!--
+<body>
+  - Thẻ này là thẻ chứa nội dung của trang. Nội dung này sẽ hiển thị khi trang được tải lên và đã đăng nhập.
+  - Thẻ <body> là bắt buộc trong các tài liệu HTML!
+  - Phần tử <body>:
+    + Chứa nội dung của trang, ví dụ như các phần tử <h1>, <p>, <img>, <table>, <ul>, <ol>, <li>, <form>, <div>, <span>,...
+    + Chứa mã HTML của trang.
+    + Chứa các đoạn mã JavaScript và CSS.
+    + Chứa các đoạn mã HTML và CSS để xử lý sự kiện của người dùng khi
+  - Thẻ này hỗ trợ các Thuộc tính toàn cục (Global Attributes) và Thuộc tính sự kiện (Event Attributes)
+-->
+
+<!--
+<h1> -> <h6>
+  - Các thẻ <h1> đến <h6> được sử dụng để định nghĩa các tiêu đề HTML.
+    + <h1> định nghĩa tiêu đề quan trọng nhất.
+    + <h6> định nghĩa tiêu đề ít quan trọng nhất.
+  - Lưu ý: Chỉ nên sử dụng một <h1> cho mỗi trang - điều này nên đại diện cho tiêu đề/chủ đề chính của toàn bộ trang. 
+  Ngoài ra, không bỏ qua các cấp độ tiêu đề - bắt đầu với <h1>, sau đó sử dụng <h2>, và cứ thế tiếp tục.
+  - Thẻ này hỗ trợ các Thuộc tính toàn cục (Global Attributes) và Thuộc tính sự kiện (Event Attributes)
+-->
+
+<!--
+<p>
+  - Thẻ <p> cho phép bạn định nghĩaa một phần nội dung đơn.
+    + Thẻ <p> cho phép bạn đưa ra một dòng chữ mới.
+    + Thẻ <p> có thể chứa nhiều dòng chữ cùng một lúc.
+    + Các trình duyệt tự động thêm một dòng trống trước và sau mỗi phần tử <p>.
+  - Thẻ này hỗ trợ các Thuộc tính toàn cục (Global Attributes) và Thuộc tính sự kiện (Event Attributes)
+-->
